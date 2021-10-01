@@ -1,11 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
+import React, { Component }  from 'react';
 
 const App = () => {
   return (
-    <div>
-      <Header title="Images Gallery"/>
-    </div>
+   <h1>Gallery </h1> 
   );
 }
 
